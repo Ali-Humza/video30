@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS Object-fit and Object-cover</title>
+<style>
+    .box{
+        height: 204px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: aqua;
+
+    }
+    img{
+        height: 204px;
+        width: 200px;
+        object-fit: cover;
+        object-position:bottom right;
+        /* object-fit: contain; */
+    }
+</style>
+</head>
+<body>
+    
+    <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgMwhAX_hGb3Edu6NsuFejVGrUpTV0-nchVw&s" alt="c"></div>
+</body>
+</html>
